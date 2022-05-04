@@ -21,9 +21,9 @@ function distance(input) {
 }
 
 function volume(input) {
-    let sumE = input / .264172
+    let sumE = input * .264172
     let roundE = sumE.toFixed(3)
-    let sumB = input * .264172
+    let sumB = input / .264172
     let roundB = sumB.toFixed(3)
     volumeEl.innerText += `${input} liters = ${roundE} gallons || ${input} gallons = ${roundB} liters`
 }
