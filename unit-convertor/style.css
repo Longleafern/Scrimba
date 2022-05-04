@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    color: whitesmoke;
+    
+}
+
+ p {
+     padding-top: 50px;
+ }
+
+.container {
+    margin: 25%;
+}
+.input {
+    border: 1px solid black;
+width: 550px;
+height: 260px;
+left: 0px;
+top: 0px;
+padding-top: 20px;
+font: inter;
+font-weight: 800, bold;
+text-align: center;
+background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+
+}
+
+#input-number {
+    font-size: 72px;
+}
+
+.grey-text {
+    color: #D2D2D2;
+}
+
+.math {
+    border: 1px solid black;
+
+    width: 550px;
+height: 550px;
+left: 89px;
+top: 718px;
+text-align: center;
+background: #1F2937;
+
+}
