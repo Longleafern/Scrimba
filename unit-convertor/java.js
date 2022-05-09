@@ -13,9 +13,9 @@ function runP(num) {
 }
 
 function distance(input) {
-    let sumE = input / 3.28084
+    let sumE = input * 3.28084
     let roundE = sumE.toFixed(3)
-    let sumB = input * 3.28084
+    let sumB = input / 3.28084
     let roundB = sumB.toFixed(3)
     distanceEl.innerText += `${input} meters = ${roundE} feet  || ${input} feet = ${roundB} meters `
 }
